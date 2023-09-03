@@ -140,6 +140,7 @@ int main () //Função principal
 	printf("\t1 - Registrar nomes\n");
 	printf("\t2 - Consultar nomes\n");
 	printf("\t3 - Deletar nomes\n\n");
+	printf("\t4 - Sair do sistema\n");
 	printf("Opção : ");
 
 
@@ -158,7 +159,9 @@ int main () //Função principal
         	case 3:
         	deletar();//deletar informaçãoes
 	        break;
-	        
+	        case 4:
+	        printf("Obrigado por utilizar o sistema!\n");
+			return 0;	
 	        
 	        default:
 	       	printf("Essa opção não está disponivel.\n");
